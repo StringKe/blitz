@@ -19,7 +19,9 @@
     "printWidth": 100
   },
   "lint-staged": {
-    "*.{js,ts,tsx}": ["eslint --fix"]
+    "*.{js,ts,tsx}": [
+      "eslint --fix"
+    ]
   },
   "dependencies": {
     "@blitzjs/auth": "alpha",
